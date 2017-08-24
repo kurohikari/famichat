@@ -1,6 +1,8 @@
 const http = require('http');
+const api = require('./api/api');
 
-http.createServer(function (req, res) {
-    res.writeHead(200);
-    res.end('Hello world');
-}).listen(10001);
+let server = http.createServer(function (req, res) {
+    api.map(req, res);
+});
+
+server.listen(17000);
