@@ -1,0 +1,2 @@
+npm: https://www.npmjs.com/package/sqlite3
+github: https://github.com/mapbox/node-sqlite3
